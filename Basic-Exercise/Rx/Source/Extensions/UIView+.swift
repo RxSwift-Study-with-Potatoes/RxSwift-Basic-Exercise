@@ -20,7 +20,7 @@ import UIKit
 
 extension UIView {
     // Set Rounded View
-    func makeRounded(cornerRadius: CGFloat?, maskedCorners: CACornerMask = [.layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMinXMinYCorner]) {
+    func makeRounded(cornerRadius: CGFloat?, maskedCorners: CACornerMask = [.layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMaxYCorner]) {
         
         if let cornerRadius_ = cornerRadius {
             layer.cornerRadius = cornerRadius_
