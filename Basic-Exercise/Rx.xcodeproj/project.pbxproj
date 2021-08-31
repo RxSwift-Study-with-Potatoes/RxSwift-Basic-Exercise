@@ -23,6 +23,8 @@
 		BD8CC47B26DE2A1300BCAEC3 /* CellSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC47A26DE2A1300BCAEC3 /* CellSample.swift */; };
 		BD8CC47D26DE2A2300BCAEC3 /* ComponentSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC47C26DE2A2300BCAEC3 /* ComponentSample.swift */; };
 		BD8CC47F26DE2A4000BCAEC3 /* XibSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC47E26DE2A4000BCAEC3 /* XibSample.swift */; };
+		BD8CC48126DE317400BCAEC3 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC48026DE317400BCAEC3 /* UIView+.swift */; };
+		BD8CC48326DE31C500BCAEC3 /* CALayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC48226DE31C500BCAEC3 /* CALayer+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		BD8CC47A26DE2A1300BCAEC3 /* CellSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSample.swift; sourceTree = "<group>"; };
 		BD8CC47C26DE2A2300BCAEC3 /* ComponentSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentSample.swift; sourceTree = "<group>"; };
 		BD8CC47E26DE2A4000BCAEC3 /* XibSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibSample.swift; sourceTree = "<group>"; };
+		BD8CC48026DE317400BCAEC3 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		BD8CC48226DE31C500BCAEC3 /* CALayer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+.swift"; sourceTree = "<group>"; };
 		E2ECCA8A156648394D363D77 /* Pods-Rx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx.debug.xcconfig"; path = "Target Support Files/Pods-Rx/Pods-Rx.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,6 +222,8 @@
 			isa = PBXGroup;
 			children = (
 				BD8CC47226DE29E300BCAEC3 /* ExtensionSample.swift */,
+				BD8CC48026DE317400BCAEC3 /* UIView+.swift */,
+				BD8CC48226DE31C500BCAEC3 /* CALayer+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -343,9 +349,11 @@
 				7007CD9526D5947300104F3C /* ObservableViewController.swift in Sources */,
 				BD8CC47B26DE2A1300BCAEC3 /* CellSample.swift in Sources */,
 				7007CD9726D5A76900104F3C /* TransfomationViewController.swift in Sources */,
+				BD8CC48326DE31C500BCAEC3 /* CALayer+.swift in Sources */,
 				7007CD8126D5916700104F3C /* AppDelegate.swift in Sources */,
 				7007CD8326D5916700104F3C /* SceneDelegate.swift in Sources */,
 				BD8CC47726DE29F800BCAEC3 /* ModelSample.swift in Sources */,
+				BD8CC48126DE317400BCAEC3 /* UIView+.swift in Sources */,
 				BD8CC47D26DE2A2300BCAEC3 /* ComponentSample.swift in Sources */,
 				BD8CC47F26DE2A4000BCAEC3 /* XibSample.swift in Sources */,
 			);
