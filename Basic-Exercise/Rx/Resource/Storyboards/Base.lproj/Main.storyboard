@@ -27,6 +27,9 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3j-Yq-ZCH">
                                                         <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="226.33333333333334"/>
+                                                        <connections>
+                                                            <segue destination="Uap-d6-fGZ" kind="push" id="K0W-9v-fAD"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Potato" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGP-NB-9lX">
                                                         <rect key="frame" x="15" y="159" width="131.66666666666666" height="21"/>
@@ -249,6 +252,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G8H-EM-w7I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-190.76923076923077" y="87.440758293838854"/>
+        </scene>
+        <!--YiJoon-->
+        <scene sceneID="xTt-ur-pwc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="YiJoon" referencedIdentifier="YiJoon" id="Uap-d6-fGZ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="zmX-9Z-pvG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3AJ-je-dAA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="475" y="112"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
