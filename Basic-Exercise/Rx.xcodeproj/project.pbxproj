@@ -18,6 +18,7 @@
 		7007CD9726D5A76900104F3C /* TransfomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007CD9626D5A76900104F3C /* TransfomationViewController.swift */; };
 		7770C1F426E850FD00BDB645 /* YiJoon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7770C1F326E850FD00BDB645 /* YiJoon.storyboard */; };
 		7770C1F626E8559800BDB645 /* YiJoonMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770C1F526E8559800BDB645 /* YiJoonMemo.swift */; };
+		7770C1F826E8577000BDB645 /* YiJoonMemoStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770C1F726E8577000BDB645 /* YiJoonMemoStorageType.swift */; };
 		BD8CC47326DE29E300BCAEC3 /* ExtensionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC47226DE29E300BCAEC3 /* ExtensionSample.swift */; };
 		BD8CC47526DE29EE00BCAEC3 /* ViewModelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC47426DE29EE00BCAEC3 /* ViewModelSample.swift */; };
 		BD8CC47726DE29F800BCAEC3 /* ModelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC47626DE29F800BCAEC3 /* ModelSample.swift */; };
@@ -43,6 +44,7 @@
 		7007CD9626D5A76900104F3C /* TransfomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfomationViewController.swift; sourceTree = "<group>"; };
 		7770C1F326E850FD00BDB645 /* YiJoon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YiJoon.storyboard; sourceTree = "<group>"; };
 		7770C1F526E8559800BDB645 /* YiJoonMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YiJoonMemo.swift; sourceTree = "<group>"; };
+		7770C1F726E8577000BDB645 /* YiJoonMemoStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YiJoonMemoStorageType.swift; sourceTree = "<group>"; };
 		88BFFA772BE8C60A9911DBC0 /* Pods_Rx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8E3D444892F95106E46429 /* Pods-Rx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx.release.xcconfig"; path = "Target Support Files/Pods-Rx/Pods-Rx.release.xcconfig"; sourceTree = "<group>"; };
 		BD8CC47226DE29E300BCAEC3 /* ExtensionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSample.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				BD8CC47826DE2A0600BCAEC3 /* ServiceSample.swift */,
+				7770C1F726E8577000BDB645 /* YiJoonMemoStorageType.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				7007CD9726D5A76900104F3C /* TransfomationViewController.swift in Sources */,
 				BD8CC48326DE31C500BCAEC3 /* CALayer+.swift in Sources */,
 				7007CD8126D5916700104F3C /* AppDelegate.swift in Sources */,
+				7770C1F826E8577000BDB645 /* YiJoonMemoStorageType.swift in Sources */,
 				BD8CC48526DE327A00BCAEC3 /* MainViewController.swift in Sources */,
 				7007CD8326D5916700104F3C /* SceneDelegate.swift in Sources */,
 				BD8CC47726DE29F800BCAEC3 /* ModelSample.swift in Sources */,
