@@ -19,6 +19,7 @@
 		7770C1F426E850FD00BDB645 /* YiJoon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7770C1F326E850FD00BDB645 /* YiJoon.storyboard */; };
 		7770C1F626E8559800BDB645 /* YiJoonMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770C1F526E8559800BDB645 /* YiJoonMemo.swift */; };
 		7770C1F826E8577000BDB645 /* YiJoonMemoStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770C1F726E8577000BDB645 /* YiJoonMemoStorageType.swift */; };
+		7770C20526E859C100BDB645 /* rxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7770C20326E859C100BDB645 /* rxMemo.xcdatamodeld */; };
 		BD8CC47326DE29E300BCAEC3 /* ExtensionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC47226DE29E300BCAEC3 /* ExtensionSample.swift */; };
 		BD8CC47526DE29EE00BCAEC3 /* ViewModelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC47426DE29EE00BCAEC3 /* ViewModelSample.swift */; };
 		BD8CC47726DE29F800BCAEC3 /* ModelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8CC47626DE29F800BCAEC3 /* ModelSample.swift */; };
@@ -45,6 +46,7 @@
 		7770C1F326E850FD00BDB645 /* YiJoon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YiJoon.storyboard; sourceTree = "<group>"; };
 		7770C1F526E8559800BDB645 /* YiJoonMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YiJoonMemo.swift; sourceTree = "<group>"; };
 		7770C1F726E8577000BDB645 /* YiJoonMemoStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YiJoonMemoStorageType.swift; sourceTree = "<group>"; };
+		7770C20426E859C100BDB645 /* rxMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rxMemo.xcdatamodel; sourceTree = "<group>"; };
 		88BFFA772BE8C60A9911DBC0 /* Pods_Rx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8E3D444892F95106E46429 /* Pods-Rx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx.release.xcconfig"; path = "Target Support Files/Pods-Rx/Pods-Rx.release.xcconfig"; sourceTree = "<group>"; };
 		BD8CC47226DE29E300BCAEC3 /* ExtensionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSample.swift; sourceTree = "<group>"; };
@@ -97,6 +99,22 @@
 				BD8CC46226DE28D800BCAEC3 /* Resource */,
 			);
 			path = Rx;
+			sourceTree = "<group>";
+		};
+		7770C20126E8598700BDB645 /* CoreDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				7770C20326E859C100BDB645 /* rxMemo.xcdatamodeld */,
+			);
+			path = CoreDataStorage;
+			sourceTree = "<group>";
+		};
+		7770C20226E8599900BDB645 /* MemoryStorage */ = {
+			isa = PBXGroup;
+			children = (
+				7770C1F726E8577000BDB645 /* YiJoonMemoStorageType.swift */,
+			);
+			path = MemoryStorage;
 			sourceTree = "<group>";
 		};
 		84BDC7C35E9E2822681E6B30 /* Pods */ = {
@@ -207,8 +225,9 @@
 		BD8CC46A26DE294600BCAEC3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				7770C20126E8598700BDB645 /* CoreDataStorage */,
+				7770C20226E8599900BDB645 /* MemoryStorage */,
 				BD8CC47826DE2A0600BCAEC3 /* ServiceSample.swift */,
-				7770C1F726E8577000BDB645 /* YiJoonMemoStorageType.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -360,6 +379,7 @@
 				BD8CC47326DE29E300BCAEC3 /* ExtensionSample.swift in Sources */,
 				BD8CC47526DE29EE00BCAEC3 /* ViewModelSample.swift in Sources */,
 				BD8CC47926DE2A0600BCAEC3 /* ServiceSample.swift in Sources */,
+				7770C20526E859C100BDB645 /* rxMemo.xcdatamodeld in Sources */,
 				7007CD9526D5947300104F3C /* ObservableViewController.swift in Sources */,
 				BD8CC47B26DE2A1300BCAEC3 /* CellSample.swift in Sources */,
 				7007CD9726D5A76900104F3C /* TransfomationViewController.swift in Sources */,
@@ -575,6 +595,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7770C20326E859C100BDB645 /* rxMemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7770C20426E859C100BDB645 /* rxMemo.xcdatamodel */,
+			);
+			currentVersion = 7770C20426E859C100BDB645 /* rxMemo.xcdatamodel */;
+			path = rxMemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7007CD7526D5916700104F3C /* Project object */;
 }
